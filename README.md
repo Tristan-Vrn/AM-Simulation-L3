@@ -2,7 +2,7 @@
 
 ## Description du Projet
 
-Ce projet vise à développer un **outil de gestion de portefeuille d’investissement** destiné à un client ayant confié une somme initiale de **1 000 000 € au 1er janvier 2005**. L’outil permettra de suivre et d’analyser la composition, la valeur, la performance et les mesures de risque d’un portefeuille composé d’actions et d’obligations.  
+Ce projet contient un **outil de gestion de portefeuille d’investissement** destiné à un client ayant confié une somme initiale de **1 000 000 € au 1er janvier 2005**. L’outil permet de suivre et d’analyser la composition, la valeur, la performance et les mesures de risque d’un portefeuille composé d’actions et d’obligations.  
 
 ### Fonctionnalités Principales
 L’outil offre les fonctionnalités suivantes :
@@ -34,11 +34,10 @@ L’outil offre les fonctionnalités suivantes :
 Le projet est organisé en deux parties principales :
 
 ### 1. Base de Données (*fichier 1*)
-- **Objectif :** Centraliser et structurer les données pour une utilisation efficace.
+- **Objectif :** Centralisation et structuration des données pour une utilisation efficace.
 - **Étapes :**
   - Un script VBA traite les fichiers bruts et génère un fichier nettoyé.
-  - Un script SQL crée une base de données et y importe les données nettoyées.
-  - Deux requêtes SQL démontrent la fonctionnalité : une pour les obligations, une pour deux indices sur une période choisie.
+  - Un script *Runs* séléctionne les actions selon un critère basé sur leurs runs
 - **Résultats attendus :**
   - Une base fonctionnelle contenant les actions et obligations du portefeuille.
 
@@ -59,6 +58,5 @@ Le projet est organisé en deux parties principales :
 3. **Données :**
    - Les données des actions sont extraites des fichiers bruts fournis.
    - Les obligations sont définies selon le modèle enseigné.
-4. **Date limite de rendu :** Dimanche 28 avril à 18h00.
 
 ---
