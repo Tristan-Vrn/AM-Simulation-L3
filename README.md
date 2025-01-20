@@ -33,7 +33,7 @@ L’outil offre les fonctionnalités suivantes :
 
 Le projet est organisé en deux parties principales :
 
-### 1. Base de Données
+### 1. Base de Données (*fichier 1*)
 - **Objectif :** Centraliser et structurer les données pour une utilisation efficace.
 - **Étapes :**
   - Un script VBA traite les fichiers bruts et génère un fichier nettoyé.
@@ -42,7 +42,7 @@ Le projet est organisé en deux parties principales :
 - **Résultats attendus :**
   - Une base fonctionnelle contenant les actions et obligations du portefeuille.
 
-### 2. Outil de Gestion d’Investissement
+### 2. Outil de Gestion d’Investissement (*fichier 2*)
 - **Objectif :** Permettre au client de consulter et analyser son portefeuille à tout moment.
 - **Caractéristiques :**
   - Implémentation d’une classe VBA pour gérer la logique métier et les calculs.
@@ -55,23 +55,23 @@ Le projet est organisé en deux parties principales :
 
 Le rendu final contient les fichiers suivants :
 1. **Script VBA de traitement des données** (`data_processing.xlsm`) :
-   - Nettoie et structure les données initiales.
-   - Produit un fichier exploitable pour la base de données.
+   - Nettoie et structure les données initiales
+   - Produit un fichier exploitable pour la base de données
    
 2. **Script SQL de création de la base** (`database_setup.sql`) :
-   - Crée la base de données.
-   - Importe les données traitées.
-   - Contient deux requêtes démonstratives.
+   - Crée la base de données
+   - Importe les données traitées
+   - Contient deux requêtes démonstratives
 
 3. **Outil de gestion** (`portfolio_manager.xlsm`) :
-   - Interface pour le suivi et l’analyse du portefeuille.
+   - Interface pour le suivi et l’analyse du portefeuille
 
 4. **Manuel utilisateur** (`manuel_utilisateur.pdf`) :
-   - Guide étape par étape pour l’utilisation de l’outil.
+   - Guide étape par étape pour l’utilisation de l’outil
 
 5. **Note technique** (`note_technique.pdf`) :
-   - Documentation détaillée pour un informaticien.
-   - Explications sur la structure et le fonctionnement du code.
+   - Documentation détaillée 
+   - Explications sur la structure et le fonctionnement du code
 
 ---
 
@@ -86,44 +86,3 @@ Le rendu final contient les fichiers suivants :
 4. **Date limite de rendu :** Dimanche 28 avril à 18h00.
 
 ---
-
-## Barème d'Évaluation
-
-Le projet sera noté sur 20 points répartis comme suit :
-- **5 points** : Respect du sujet et documentation.
-- **5 points** : Implémentation SQL.
-- **5 points** : Conception de la base de données.
-- **5 points** : Fonctionnalité de l’outil.
-
----
-
-## Utilisation de l'Outil
-
-### Pré-requis
-- Microsoft Excel (compatible avec les macros VBA).
-- Serveur SQL (pour exécuter le script SQL).
-- Données brutes disponibles localement.
-
-### Instructions
-1. **Préparation des données :**
-   - Exécutez le script VBA pour traiter les données brutes.
-   - Un fichier nettoyé sera généré.
-2. **Création de la base de données :**
-   - Importez le fichier nettoyé à l’aide du script SQL.
-   - Exécutez les requêtes incluses pour valider la base.
-3. **Suivi du portefeuille :**
-   - Ouvrez l’outil VBA.
-   - Suivez les instructions du manuel utilisateur pour consulter et analyser le portefeuille.
-
----
-
-## Auteurs
-Ce projet a été réalisé par :
-- [Nom de Famille 1]
-- [Nom de Famille 2]
-- [Nom de Famille 3]
-
----
-
-## Contact
-Pour toute question, veuillez contacter l’équipe par email : [votre_email@example.com].
