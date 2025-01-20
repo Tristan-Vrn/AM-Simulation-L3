@@ -51,30 +51,6 @@ Le projet est organisé en deux parties principales :
 
 ---
 
-## Livrables
-
-Le rendu final contient les fichiers suivants :
-1. **Script VBA de traitement des données** (`data_processing.xlsm`) :
-   - Nettoie et structure les données initiales
-   - Produit un fichier exploitable pour la base de données
-   
-2. **Script SQL de création de la base** (`database_setup.sql`) :
-   - Crée la base de données
-   - Importe les données traitées
-   - Contient deux requêtes démonstratives
-
-3. **Outil de gestion** (`portfolio_manager.xlsm`) :
-   - Interface pour le suivi et l’analyse du portefeuille
-
-4. **Manuel utilisateur** (`manuel_utilisateur.pdf`) :
-   - Guide étape par étape pour l’utilisation de l’outil
-
-5. **Note technique** (`note_technique.pdf`) :
-   - Documentation détaillée 
-   - Explications sur la structure et le fonctionnement du code
-
----
-
 ## Contraintes et Stratégies
 1. **Allocation initiale :**
    - Au moins 50 % du portefeuille en actions, réparties sur au moins 5 produits différents.
